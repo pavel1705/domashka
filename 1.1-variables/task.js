@@ -8,20 +8,31 @@
 function averageMark(a, g, p) {
 	
     // реализуйте здесь задание №1
+  let algebra = a;
+  let geography = g;
+  let physics = p;
+  let midl;
+    midl = (algebra + geography + physics) / 3;
     
-	return // ваш ответ;
+	return midl // ваш ответ;
 }
 
 function sayHello(userName) {
 	
     // реализуйте здесь задание №2
-    
-	return // ваш ответ;
+  let myName = userName;
+    message = `Привет, мир! Меня зовут ${myName}`;
+	
+	return message // ваш ответ;
 }
 
 function calculateFormula() {
     
 	// реализуйте здесь задание №3
+  let x = 2;
+  let y = 22;
+  let z = 0;
+    result = x * y + 5 * z + x - 1
     
-    return // ваш ответ;
+    return result // ваш ответ;
 }
